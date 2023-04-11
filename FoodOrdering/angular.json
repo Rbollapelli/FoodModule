@@ -5,11 +5,7 @@
   "projects": {
     "FoodOrdering": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "scss"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,13 +20,12 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.css","node_modules/bootstrap/dist/css/bootstrap-theme.min.css"
             ],
             "scripts": []
           },
@@ -87,21 +82,17 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss","FoodOrdering\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
+              "src/styles.css","node_modules/bootstrap/dist/css/bootstrap-theme.min.css"
             ],
             "scripts": []
           }
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "75b5c743-2e93-4821-8189-e119b7ce67b2"
   }
 }

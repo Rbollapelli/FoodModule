@@ -1,0 +1,14 @@
+
+<div class="row" style="background-image: url('./../assets/cimg3.png');">
+    <div class="col" *ngFor = "let item of product">
+      <span><div class="card" style="width:20rem;height:50; background-color: beige;" >
+        
+        <div class="card-body"style="align-items: center;">
+          <!--<h5 class="card-title">name</h5>!-->
+          <p style="text-align: center;"class="card-text">{{item.productname}} <br> {{ item.price}} <span>&#8377;</span></p>
+          <button (click) ="addProductToCart(item)" class="btn btn-warning">Add to Cart</button>
+        </div>
+        
+      </div></span>
+    </div>
+  </div>

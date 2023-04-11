@@ -1,0 +1,472 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "productDetails": [
+    {
+      "productname": "Mexicaon Pizza chees",
+      "productcategory": "Pizza",
+      "price": "200",
+      "listind": "yes",
+      "id": 1
+    },
+    {
+      "productname": "veg Burger",
+      "productcategory": "Burger",
+      "price": "44",
+      "listind": "yes",
+      "id": 2
+    },
+    {
+      "productname": "veg Biryani",
+      "productcategory": "Biryani",
+      "price": "120",
+      "listind": "yes",
+      "id": 3
+    },
+    {
+      "productname": "chees Butter Roti",
+      "productcategory": "Roti",
+      "price": "20",
+      "listind": "yes",
+      "id": 4
+    },
+    {
+      "productname": "Chees Pizza",
+      "productcategory": "Pizza",
+      "price": "3000",
+      "listind": "yes",
+      "id": 5
+    },
+    {
+      "productname": "Paneer Biryani",
+      "productcategory": "Biryani",
+      "price": "200",
+      "listind": "yes",
+      "id": 6
+    },
+    {
+      "productname": "butter roti",
+      "productcategory": "Roti",
+      "price": "20",
+      "listind": "yes",
+      "id": 7
+    },
+    {
+      "productname": "alu tikki burger",
+      "productcategory": "Burger",
+      "price": "45",
+      "listind": "yes",
+      "id": 8
+    }
+  ],
+  "CustOrderDetails": [
+    {
+      "date": "Sun Apr 09 2023 21:57:58 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 3385,
+      "email": "abc@gmail.com",
+      "phone": 9966455936,
+      "customername": "Ramu",
+      "address": "add1",
+      "id": 1
+    },
+    {
+      "date": "Sun Apr 09 2023 22:15:38 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 200,
+      "email": "shiva@gmail.com",
+      "phone": "9876567897",
+      "customername": "shivap",
+      "address": "pune",
+      "id": 2
+    },
+    {
+      "date": "Sun Apr 09 2023 22:18:24 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 0,
+      "email": "shiva@gmail.com",
+      "phone": "9876567897",
+      "customername": "shivap",
+      "address": "pune",
+      "id": 3
+    },
+    {
+      "date": "Sun Apr 09 2023 22:19:46 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 365,
+      "email": "shiva@gmail.com",
+      "phone": "9876567897",
+      "customername": "shivap",
+      "address": "pune",
+      "id": 4
+    },
+    {
+      "date": "Sun Apr 09 2023 22:21:37 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 245,
+      "email": "sayali@gmail.com",
+      "phone": "7865676543",
+      "customername": "sayalip",
+      "address": "pune",
+      "id": 5
+    },
+    {
+      "date": "Sun Apr 09 2023 22:23:02 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 200,
+      "email": "sayali@gmail.com",
+      "phone": "7865676543",
+      "customername": "sayalip",
+      "address": "pune",
+      "id": 6
+    },
+    {
+      "date": "Sun Apr 09 2023 22:24:46 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 165,
+      "email": "preeti@gmail.com",
+      "phone": "8976567895",
+      "customername": "preetip",
+      "address": "pune",
+      "id": 7
+    },
+    {
+      "date": "Sun Apr 09 2023 22:28:36 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 3200,
+      "email": "archana@gmail.com",
+      "phone": "8976567895",
+      "customername": "archanaN",
+      "address": "pune",
+      "id": 8
+    },
+    {
+      "date": "Sun Apr 09 2023 22:33:43 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 245,
+      "email": "lila@gmail.com",
+      "phone": "9087654567",
+      "customername": "lilaK",
+      "address": "mumbai",
+      "id": 9
+    },
+    {
+      "date": "Sun Apr 09 2023 22:36:45 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 245,
+      "email": "sayali@gmail.com",
+      "phone": "7865676543",
+      "customername": "sayalip",
+      "address": "pune",
+      "id": 10
+    },
+    {
+      "date": "Mon Apr 10 2023 10:37:50 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 365,
+      "email": "priti@gmail.com",
+      "phone": "9876567897",
+      "customername": "pritin",
+      "address": "pune",
+      "id": 11
+    },
+    {
+      "date": "Mon Apr 10 2023 12:51:53 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 365,
+      "email": "savani@gmail.com",
+      "phone": "8976545678",
+      "customername": "savaniN",
+      "address": "pune",
+      "id": 12
+    },
+    {
+      "date": "Mon Apr 10 2023 12:58:04 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 420,
+      "email": "john@gmail.com",
+      "phone": "9876543210",
+      "customername": "johnA",
+      "address": "goa",
+      "id": 13
+    },
+    {
+      "date": "Mon Apr 10 2023 14:19:56 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 245,
+      "email": "priti@gmail.com",
+      "phone": "9876567897",
+      "customername": "pritin",
+      "address": "pune",
+      "id": 14
+    },
+    {
+      "date": "Mon Apr 10 2023 14:52:45 GMT+0530 (India Standard Time)",
+      "totalOrderPrice": 364,
+      "email": "priti@gmail.com",
+      "phone": "9876567897",
+      "customername": "pritin",
+      "address": "pune",
+      "id": 15
+    }
+  ],
+  "UserDetails": [
+    {
+      "username": "test",
+      "password": "test",
+      "firstName": "a",
+      "lastName": "b",
+      "authdata": "c",
+      "usertype": "customer",
+      "id": 1
+    },
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "firstName": "a",
+      "lastName": "aa",
+      "authdata": "c",
+      "usertype": "admin"
+    },
+    {
+      "username": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "usertype": "",
+      "authdata": "",
+      "id": 2
+    },
+    {
+      "username": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "usertype": "",
+      "authdata": "",
+      "id": 3
+    },
+    {
+      "username": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "usertype": "",
+      "authdata": "",
+      "id": 4
+    },
+    {
+      "username": "",
+      "password": "",
+      "firstName": "",
+      "lastName": "",
+      "usertype": "",
+      "authdata": "",
+      "id": 5
+    },
+    {
+      "username": "shitalp",
+      "password": "shital123",
+      "firstName": "shital",
+      "lastName": "patil",
+      "usertype": "admin",
+      "authdata": "",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "username": "pritin",
+      "password": "priti123",
+      "firstName": "priti",
+      "lastName": "nakhole",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "9876567897",
+      "email": "priti@gmail.com"
+    },
+    {
+      "username": "seemap",
+      "password": "seema12",
+      "firstName": "seema",
+      "lastName": "patil",
+      "usertype": "customer",
+      "authdata": "",
+      "id": 8
+    },
+    {
+      "username": "gitaP",
+      "password": "gita123",
+      "firstName": "gita",
+      "lastName": "patil",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "9087654567",
+      "email": "gita@gmail.com",
+      "id": 9
+    },
+    {
+      "username": "ramp",
+      "password": "ram123",
+      "firstName": "ram",
+      "lastName": "patil",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "mumbai",
+      "mobilenumber": "8976545678",
+      "email": "ram@gmail.com",
+      "id": 10
+    },
+    {
+      "username": "shivap",
+      "password": "shiva123",
+      "firstName": "shiva",
+      "lastName": "patil",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "9876567897",
+      "email": "shiva@gmail.com",
+      "id": 11
+    },
+    {
+      "username": "sayalip",
+      "password": "sayali123",
+      "firstName": "sayali",
+      "lastName": "pawar",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "7865676543",
+      "email": "sayali@gmail.com",
+      "id": 12
+    },
+    {
+      "username": "preetip",
+      "password": "preeti123",
+      "firstName": "preeti",
+      "lastName": "patil",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "8976567895",
+      "email": "preeti@gmail.com",
+      "id": 13
+    },
+    {
+      "username": "shailyap",
+      "password": "shailya123",
+      "firstName": "shailya",
+      "lastName": "patil",
+      "usertype": "admin",
+      "authdata": "",
+      "address": "mumbai",
+      "mobilenumber": "9876567897",
+      "email": "shailya@gmail.com",
+      "id": 14
+    },
+    {
+      "username": "archanaN",
+      "password": "archana",
+      "firstName": "archana",
+      "lastName": "nangare",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "8976567895",
+      "email": "archana@gmail.com",
+      "id": 15
+    },
+    {
+      "username": "lilaK",
+      "password": "lila123",
+      "firstName": "lila",
+      "lastName": "kate",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "mumbai",
+      "mobilenumber": "9087654567",
+      "email": "lila@gmail.com",
+      "id": 16
+    },
+    {
+      "username": "avaniN",
+      "password": "avani123",
+      "firstName": "avani",
+      "lastName": "nakhole",
+      "usertype": "admin",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "7865676543",
+      "email": "avani@gmail.com",
+      "id": 17
+    },
+    {
+      "username": "savaniN",
+      "password": "savani123",
+      "firstName": "savani",
+      "lastName": "nakhole",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "8976545678",
+      "email": "savani@gmail.com",
+      "id": 18
+    },
+    {
+      "username": "himanshuP",
+      "password": "",
+      "firstName": "hi",
+      "lastName": "",
+      "usertype": "",
+      "authdata": "",
+      "address": "",
+      "mobilenumber": "",
+      "email": "",
+      "id": 19
+    },
+    {
+      "username": "himanshuP",
+      "password": "himanshu123",
+      "firstName": "himanshu",
+      "lastName": "pednekar",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "mumbai",
+      "mobilenumber": "9876543210",
+      "email": "himanshu@gmail.com",
+      "id": 20
+    },
+    {
+      "username": "johnA",
+      "password": "john123",
+      "firstName": "john",
+      "lastName": "abraham",
+      "usertype": "customer",
+      "authdata": "",
+      "address": "goa",
+      "mobilenumber": "9876543210",
+      "email": "john@gmail.com",
+      "id": 21
+    },
+    {
+      "username": "snehalP",
+      "password": "snehal123",
+      "firstName": "snehal",
+      "lastName": "patil",
+      "usertype": "admin",
+      "authdata": "",
+      "address": "pune",
+      "mobilenumber": "9876789876",
+      "email": "snehal@gmail.com",
+      "id": 22
+    }
+  ],
+  "UserInfo": {
+    "userName": "raghu",
+    "userType": "admin"
+  }
+}

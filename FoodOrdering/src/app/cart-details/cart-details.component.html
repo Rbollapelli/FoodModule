@@ -1,0 +1,32 @@
+
+<body  style="background-image: url('./../assets/cart.jpg');height: 550px; background-position: center;
+background-repeat: no-repeat;background-size: cover;padding-top: 50px;">
+<div><h3 >TOTAL NUMBERS OF ITEMS IN CART:{{totalIteam}}</h3>
+    
+
+<div>
+    <table *ngIf="productlist" style="width:50%;height: 50%; background-color: rgb(231, 221, 124);" border=1  >
+        <tr>
+            <td>ProductName</td>
+            <td>Price</td>
+        </tr>
+        <tr  *ngFor="let p of productlist">
+            <td>{{p.productname}}</td>
+            <td>{{p.price}}</td>
+        </tr>
+        <tr *ngIf="grandtotal">
+            <td>Total Price:        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{grandtotal}}</td></tr>
+            <button (click)="submitOrderDetails(productlist)" *ngIf="btnflag=='false'"  class="btn btn-primary"> Place Order
+             </button>
+            
+             
+    </table>
+    
+</div>
+<h3 *ngIf="btnflag=='true'">Order placed Successfully  {{username}}</h3>
+<div>
+
+
+</div>
+</div>
+</body>

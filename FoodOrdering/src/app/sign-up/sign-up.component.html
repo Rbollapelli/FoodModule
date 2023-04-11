@@ -1,0 +1,27 @@
+<p>sign-up works!</p>
+<div class="image1">
+
+    <span class="content">      
+        <form [formGroup]= "registerForm" (ngSubmit)="registerUser()" >
+            <label for="firstname">UserName</label><br>
+            <input type="text" formControlName ="username">
+            <br>
+           <label for="email ">email: </label><br>
+            <input type="email" formControlName ="email">
+            <br>  
+            <label for="password ">Password:</label><br>
+            <input type="password" formControlName ="password">
+            <br>   
+            <label for="mobile ">Mobile:</label><br>
+            <input type="number" formControlName ="mobile">
+            <br><br>          
+            <label for="User ">User : </label>
+            <select name="city" formControlName="user">
+                <option value="Admin">Admin</option>
+                <option value="Customer">Customer</option>    
+            </select>
+            <br><br>            
+            <button  >Register</button>
+        </form>       
+    </span>
+    </div>

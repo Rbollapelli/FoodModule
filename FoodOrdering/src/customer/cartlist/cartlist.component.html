@@ -1,0 +1,26 @@
+<p>cartlist works!</p>
+<div>Total number of items:{{totalIteam}}</div>
+<div>
+    <table *ngIf="productlist" style="width:30%;" border=1  >
+        <tr>
+            <td>ProductName</td>
+            <td>Price</td>
+        </tr>
+        <tr  *ngFor="let p of productlist">
+            <td>{{p.productname}}</td>
+            <td>{{p.price}}</td>
+        </tr>
+        <tr *ngIf="grandtotal">
+            <td>Total Price:        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{grandtotal}}</td></tr>
+            <button (click)="submitOrderDetails(productlist)" *ngIf="btnflag=='false'"  class="btn btn-primary"> Place Order
+             </button>
+             <h3 *ngIf="btnflag=='true'">Order placed Successfully</h3>
+             
+    </table>
+    
+</div>
+
+<div>
+
+
+</div>

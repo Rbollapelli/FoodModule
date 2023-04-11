@@ -1,0 +1,21 @@
+<p>login works!</p>
+<div class="image">
+  
+    <span class="box">
+    <form [formGroup]= "loginForm" (ngSubmit)="login()" >
+    
+        <label for="firstname">User Name</label><br>
+        <input type="text" formControlName ="username">
+        <br>
+    
+    
+        <label for="password ">Password:</label><br>
+        <input type="password" formControlName ="password">
+        <br>
+    
+        <p>Not a member?<a routerLink="/signup">Signup now</a></p>
+    
+        <button (click)= "login()" >Login</button>
+    </form>
+    </span>
+    </div>
